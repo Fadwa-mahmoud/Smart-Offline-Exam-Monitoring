@@ -52,7 +52,3 @@ Dalia Emad
 Salma Amer
 Malak Tamer
 Fatma Mohamed
-
-- 🔔 Automatic alarm system
-- ☁️ Cloud database integration
-- 📱 Mobile application support
