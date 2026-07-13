@@ -45,10 +45,3 @@ The YOLO model detects 5 different classes:
 6. 🖥️ Build Streamlit interface
 7. 📸 Store detected cheating screenshots
 
-## 👥 Team
-Developed by:
-Fadwa Mahmoud
-Dalia Emad
-Salma Amer
-Malak Tamer
-Fatma Mohamed
