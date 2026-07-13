@@ -1,12 +1,12 @@
 # Smart-Offline-Exam-Monitoring
 # 🎓 AI-Based Smart Exam Monitoring System
 
-## 📌 Overview
+## Overview
 An AI-powered exam monitoring system that uses Computer Vision and Deep Learning to automatically detect suspicious behaviors during exams and help reduce cheating.
 
 The system analyzes exam images and identifies different behaviors using a YOLO-based Object Detection model.
 
-## 🚀 Project Features
+## Project Features
 - Real-time cheating behavior detection
 - Phone usage detection
 - Hand movement monitoring
@@ -14,7 +14,7 @@ The system analyzes exam images and identifies different behaviors using a YOLO-
 - Saving screenshots of detected suspicious cases
 - User-friendly interface for monitoring results
 
-## 🎯 Detected Classes
+## Detected Classes
 The YOLO model detects 5 different classes:
 
 - 📝 **Cheating**
