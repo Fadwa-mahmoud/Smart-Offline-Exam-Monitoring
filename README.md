@@ -17,31 +17,30 @@ The system analyzes exam images and identifies different behaviors using a YOLO-
 ## Detected Classes
 The YOLO model detects 5 different classes:
 
-- 📝 **Cheating**
-- ✋ **Hand-Normalmove**
-- ✅ **Non-Cheating**
-- 📄 **Cheating-Paper**
-- 📱 **Phone**
+- **Cheating**
+- **Hand-Normalmove**
+- **Hand-Suspiciousmove**
+- **Non-Cheating**
 
-## 🧠 AI Model
+## AI Model
 - Model: **YOLOv8 Object Detection**
 - Task: **Object Detection**
 - Input: Exam images
 - Output: Detected objects with bounding boxes and confidence scores
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python
 - YOLOv8 (Ultralytics)
 -Computer Vision
 -FastAPI
 -Streamlit
 
-## 🔄 System Pipeline
+## System Pipeline
 1. Collect and prepare dataset
 2. Annotate images with bounding boxes
-3. 🏋️ Train YOLOv8 model
+3. Train YOLOv8 model
 4. Evaluate model performance
 5. Integrate model with API
-6. 🖥️ Build Streamlit interface
-7. 📸 Store detected cheating screenshots
+6. Build Streamlit interface
+7. Store detected cheating screenshots
 
