@@ -1,5 +1,8 @@
+streamlit
+requests
+pillow
+pandas
 fastapi
 uvicorn
 ultralytics
 python-multipart
-pillow
