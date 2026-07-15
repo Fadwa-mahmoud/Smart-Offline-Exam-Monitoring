@@ -1,46 +1,51 @@
-# Smart-Offline-Exam-Monitoring
-# 🎓 AI-Based Smart Exam Monitoring System
+# Smart Offline Exam Monitoring System
 
 ## Overview
-An AI-powered exam monitoring system that uses Computer Vision and Deep Learning to automatically detect suspicious behaviors during exams and help reduce cheating.
 
-The system analyzes exam images and identifies different behaviors using a YOLO-based Object Detection model.
+Smart Offline Exam Monitoring System is an AI-based computer vision solution designed to assist in exam supervision by detecting suspicious objects and behaviors automatically.
 
-## Project Features
-- Real-time cheating behavior detection
-- Phone usage detection
-- Hand movement monitoring
-- Cheating paper detection
-- Saving screenshots of detected suspicious cases
-- User-friendly interface for monitoring results
+The system uses deep learning and YOLO object detection to analyze exam images, identify potential cheating indicators, calculate a risk score, and provide an automated assessment through an interactive web application.
 
-## Detected Classes
-The YOLO model detects 5 different classes:
+The project combines an AI detection model, backend services, user interface, and database storage to create a complete exam monitoring system.
 
-- **Cheating**
-- **Hand-Normalmove**
-- **Hand-Suspiciousmove**
-- **Non-Cheating**
-
-## AI Model
-- Model: **YOLOv8 Object Detection**
-- Task: **Object Detection**
-- Input: Exam images
-- Output: Detected objects with bounding boxes and confidence scores
+---
 
 ## Technologies Used
+
 - Python
-- YOLOv8 (Ultralytics)
--Computer Vision
--FastAPI
--Streamlit
+- YOLO Object Detection
+- Deep Learning
+- Computer Vision
+- FastAPI
+- Streamlit
+- SQLite Database
+- Ultralytics
+- Pillow
+- Pandas
+- Requests
 
-## System Pipeline
-1. Collect and prepare dataset
-2. Annotate images with bounding boxes
-3. Train YOLOv8 model
-4. Evaluate model performance
-5. Integrate model with API
-6. Build Streamlit interface
-7. Store detected cheating screenshots
+---
 
+## Features
+
+- AI-powered detection of suspicious objects during exams.
+- Automated cheating suspicion analysis.
+- Risk score calculation based on detected objects.
+- Visualization of detection results using annotated images.
+- User-friendly interface for uploading and analyzing exam images.
+- Backend service for processing predictions.
+- Storage of prediction history for reviewing previous results.
+- Ability to manage and clear stored detection records.
+
+---
+
+## Future Improvements
+
+- Real-time exam monitoring using live camera streams.
+- Cloud deployment for remote access.
+- Mobile application integration.
+- Advanced behavior analysis using AI.
+- Notification system for supervisors.
+- Support for larger and more diverse datasets.
+- Detailed exam analytics and reports.
+- Multi-user management system.
